@@ -3,8 +3,68 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Rubik Mono One', sans-serif;
+    color: #FFFF00;
+    font-size: 56px;
+    text-decoration: none;
 }
 
-body{
-    background-color: red;
+img{
+    height: 600px;
+}
+
+body {
+    overflow: hidden; 
+}
+
+.nav-bar > a{
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 20px 25px;
+}
+
+/*utilities*/
+
+.container{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.green{
+    color: #008000;
+}
+
+/*main*/
+
+.bg-blue-shoes{
+    background-color: #ff0000;
+    height: 100vh;
+}
+
+.bg-white-shoes{
+    background-color: #008000;
+    height: 100vh;
+}
+
+.bg-green-shoes{
+    background-color: #FFFF00;
+    height: 100vh;
+}
+
+.bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-bar{
+    position:fixed;
+    right: 20px;
+    top: 50px;
+}
+
+.box{
+    position: relative;
 }
